@@ -1,5 +1,4 @@
 import Swiper from "./components/Swiper";
-import Location from "./pages/Location";
 import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
 import { Forum } from "./pages/Forum";
@@ -16,7 +15,6 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="bg-gray-200 pt-10 h-[auto] pb-20">
-      <Location />
       <Sidebar />
       <Swiper />
       <Home />
